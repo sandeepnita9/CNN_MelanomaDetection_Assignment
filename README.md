@@ -18,6 +18,11 @@ The dataset consists of 2357 images of malignant and benign oncological diseases
 - Squamous cell carcinoma
 - Vascular lesion
 
+## Objective
+- Design a CNN model that can identify melanoma in skin lesion images with maximum accuracy.
+- Assist dermatologists in skin cancer diagnosis, reducing manual diagnostic efforts.
+- Improve early detection rates of melanoma, potentially reducing related mortality.
+
 ## CNN Architecture Design
 To classify skin cancer using skin lesions images. To achieve higher accuracy and results on the classification task, I have built custom CNN model.
 
