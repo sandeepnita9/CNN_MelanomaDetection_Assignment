@@ -7,17 +7,16 @@ To build a CNN based model which can accurately detect melanoma. Melanoma is a t
 ## Dataset Summary
 The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
 
-The data set contains the following diseases:
-
-![datasetdf](https://github.com/sbksum/CNN_MelanomaDetection/blob/main/Readme_Files/4.png)
-
-![datasetplot](https://github.com/sbksum/CNN_MelanomaDetection/blob/main/Readme_Files/2.png)
-
-To overcome the issue of class imbalance, used a python package  Augmentor (https://augmentor.readthedocs.io/en/master/) to add more samples across all classes so that none of the classes have very few samples.
-
-### Sample imageS from Dataset
-
-![datasetdf1](https://github.com/sbksum/CNN_MelanomaDetection/blob/main/Readme_Files/1.png)
+## Diseases contained by DataSet
+-Actinic keratosis
+-Basal cell carcinoma
+-Dermatofibroma
+-Melanoma
+-Nevus
+-Pigmented benign keratosis
+-Seborrheic keratosis
+-Squamous cell carcinoma
+-Vascular lesion
 
 ## CNN Architecture Design
 To classify skin cancer using skin lesions images. To achieve higher accuracy and results on the classification task, I have built custom CNN model.
